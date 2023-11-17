@@ -1,0 +1,54 @@
+.content{
+    margin: 30px auto;
+    width: 900px;
+    /* justify-content: space-between; */
+}
+
+li>a:hover{
+    font-weight: bolder;
+}
+.cardclick {
+    width: 30% !important;
+    padding-left: 20px ;
+    margin-bottom:20px ;
+}
+
+.cardclick:hover{
+cursor: pointer;
+border: 6px white solid;
+}
+.myMap{
+    height: 500px;
+    width: 900px;
+}
+.map {
+    width: 50vw;
+    height: 40vh;
+  }
+.borclick{
+    padding-left: 5px;
+}
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/14/08/20/map-of-the-world-2401458_640.jpg');
+    background-size: cover;
+}
+.flags{
+    position: fixed;
+    bottom: 30px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.imgFlag:hover{
+cursor: pointer;
+
+    border: 4px black solid !important;
+}
+  
